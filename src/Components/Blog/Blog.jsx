@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Blog = ({ player, handlAddCart }) => {
-    const { id, cover, name, price, age } = player
+    const { id, cover, name, price } = player
     return (
         <div className='mb-8'>
             <div className='w-[350px]'>
